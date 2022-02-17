@@ -70,11 +70,12 @@
 
 ---
 ## 使用 React Hook 完成,按住 Shift 可多選清單 Checkboxes ( 其中有不可選的須跳過 )
-### Answer: [Link](https://github.com/GlennJong/section-list)
+### Answer:
+### 完整 CRA project 請參考 [Link](https://github.com/GlennJong/section-list)
 
 拆分成 `Item` 和 `List` 兩個元件：<br />
-`Item` 僅負責自身的 checkbox state。<br />
-`List` 負責選取邏輯，選取時透過 ref 存取 checkbox 狀態，避免使用 state 造成不必要的 life cycle。
+`Item` 僅負責自身的 checkbox state。 [Link](https://github.com/GlennJong/section-list/blob/master/src/Item.js)<br />
+`List` 負責選取邏輯，選取時透過 ref 存取 checkbox 狀態，避免使用 state 造成不必要的 life cycle。 [Link](https://github.com/GlennJong/section-list/blob/master/src/List.js)
 
 ---
 ## 請概述通常前端 CRUD 會用到的後端 API 有哪些，規格是甚麼？
